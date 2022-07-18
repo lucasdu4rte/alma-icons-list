@@ -1,0 +1,26 @@
+.App {
+  padding: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .App {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.card {
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  border: 1px solid #fff;
+  border-radius: 6px;
+}
+
+.card > i {
+  font-size: 2rem;
+}
